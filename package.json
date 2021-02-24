@@ -1,0 +1,36 @@
+{
+  "name": "sw-mock-server",
+  "version": "2.0.3",
+  "description": "",
+  "main": "index.js",
+  "contributors": "jiangminxi",
+  "engines": {
+    "node": ">= 6.5.0",
+    "npm": ">= 3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmx164491960/sw-mock-server.git"
+  },
+  "scripts": {
+    "demo": "node ./demo.js -p -s",
+    "debug": "node --inspect-brk=5858 ./demo.js -s"
+  },
+  "author": "jiangminxi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmx164491960/sw-mock-server/issues"
+  },
+  "homepage": "https://github.com/jmx164491960/sw-mock-server#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.0",
+    "mockjs": "^1.1.0",
+    "rimraf": "^3.0.2",
+    "swagger-mock-maker": "^1.1.4"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5"
+  }
+}
