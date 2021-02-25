@@ -1,27 +1,27 @@
 {
-  "name": "sw-mock-server",
-  "version": "2.0.3",
+  "name": "swagger-mock-generator",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
-  "contributors": "jiangminxi",
+  "contributors": "lawrence998",
   "engines": {
     "node": ">= 6.5.0",
     "npm": ">= 3.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jmx164491960/sw-mock-server.git"
+    "url": "git+https://github.com/lawrence998/swagger-mock-server.git"
   },
   "scripts": {
     "demo": "node ./demo.js -p -s",
     "debug": "node --inspect-brk=5858 ./demo.js -s"
   },
-  "author": "jiangminxi",
+  "author": "lawrence998",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jmx164491960/sw-mock-server/issues"
+    "url": "https://github.com/lawrence998/swagger-mock-server/issues"
   },
-  "homepage": "https://github.com/jmx164491960/sw-mock-server#readme",
+  "homepage": "https://github.com/lawrence998/swagger-mock-server#readme",
   "dependencies": {
     "chalk": "^3.0.0",
     "express": "^4.17.1",

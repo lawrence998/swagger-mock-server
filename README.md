@@ -6,13 +6,13 @@
 
 ### 安装
 
-npm install sw-mock-server
+npm install swagger-mock-generator
 
 ### 快速上手
 
 **1.基础用法:**
 
-跟目录创建文件 "sw.js"
+根目录创建文件 "sw.js"
 ```js
   const sw = require('sw-mock-server');
   

@@ -30,24 +30,20 @@ const synchronizeSwagger = {
     // prettier-ignore
     // api path中的{petId}形式改为:petId
     return `/**
-  ${summary}
-**/
-module.exports = {
-  url: '${this.basePath}${path.replace(/\{([^}]*)\}/g, ":$1")}',
-  getData: (Mock) => {
-    return Mock.mock(${example});
-  }
-}`;
+        ${summary}
+      **/
+      module.exports = {
+        url: '${this.basePath}${path.replace(/\{([^}]*)\}/g, ":$1")}',
+        getData: (Mock) => {
+          return Mock.mock(${example});
+        }
+      }`;
   },
 
   // 遍历api path信息
   async traverse(paths) {
     const promiseList = []
     for (let path in paths) {
-      // if (this.filterReg && !this.filterReg.test(path)) {
-      //   continue;
-      // }
-
       if (this.blacklist.includes(path)) {
         continue;
       }

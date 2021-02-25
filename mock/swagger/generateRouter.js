@@ -21,7 +21,6 @@ function scan(path, app) {
     }
     if (stats.isFile()) {
       const mockData = require(fpath);
-      const {url, getData} = mockData;
       swMockDatas.push(mockData);
     }
   }
