@@ -1,5 +1,5 @@
-**sw-mock-server**
-[![npm version](https://img.shields.io/static/v1?label=npm&message=v2.0.0&color=blue)](https://www.npmjs.com/package/sw-mock-server)
+**swagger-mock-generator**
+[![npm version](https://img.shields.io/static/v1?label=npm&message=v2.0.0&color=blue)](https://www.npmjs.com/package/swagger-mock-generator)
 ### 简介
 
 根据swagger文档地址生成mock数据，简化前端mock的工作量
@@ -14,7 +14,7 @@ npm install swagger-mock-generator
 
 根目录创建文件 "sw.js"
 ```js
-  const sw = require('sw-mock-server');
+  const sw = require('swagger-mock-generator');
   
   sw({
     "port": "8089", // 程序监听端口
